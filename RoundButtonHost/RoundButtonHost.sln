@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoundButtonHost", "RoundButtonHost\RoundButtonHost.csproj", "{C6869F90-B780-41F7-BA32-7FE534DB03FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoundButton", "RoundButton\RoundButton.csproj", "{7D09071C-E2CE-4289-B4BF-D3CDCF2B7CA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6869F90-B780-41F7-BA32-7FE534DB03FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6869F90-B780-41F7-BA32-7FE534DB03FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6869F90-B780-41F7-BA32-7FE534DB03FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6869F90-B780-41F7-BA32-7FE534DB03FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D09071C-E2CE-4289-B4BF-D3CDCF2B7CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D09071C-E2CE-4289-B4BF-D3CDCF2B7CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D09071C-E2CE-4289-B4BF-D3CDCF2B7CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D09071C-E2CE-4289-B4BF-D3CDCF2B7CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

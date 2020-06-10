@@ -1,0 +1,600 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_Custom_firmware_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbl_Custom_firmware_label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 12pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_Custom_firmware_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Custom_firmware_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 263</value>
+  </data>
+  <data name="lbl_Custom_firmware_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 23</value>
+  </data>
+  <data name="lbl_Custom_firmware_label.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="lbl_Custom_firmware_label.Text" xml:space="preserve">
+    <value>升级离线飞控版本</value>
+  </data>
+  <data name="&gt;&gt;lbl_Custom_firmware_label.Name" xml:space="preserve">
+    <value>lbl_Custom_firmware_label</value>
+  </data>
+  <data name="&gt;&gt;lbl_Custom_firmware_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Custom_firmware_label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_Custom_firmware_label.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lbl_dlfw.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_dlfw.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 12pt</value>
+  </data>
+  <data name="lbl_dlfw.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_dlfw.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 263</value>
+  </data>
+  <data name="lbl_dlfw.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 23</value>
+  </data>
+  <data name="lbl_dlfw.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="lbl_dlfw.Text" xml:space="preserve">
+    <value>升级在线飞控版本</value>
+  </data>
+  <data name="&gt;&gt;lbl_dlfw.Name" xml:space="preserve">
+    <value>lbl_dlfw</value>
+  </data>
+  <data name="&gt;&gt;lbl_dlfw.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_dlfw.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_dlfw.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="type_cmb.Items" xml:space="preserve">
+    <value>四轴飞行器</value>
+  </data>
+  <data name="type_cmb.Items1" xml:space="preserve">
+    <value>六轴飞行器</value>
+  </data>
+  <data name="type_cmb.Items2" xml:space="preserve">
+    <value>八轴飞行器</value>
+  </data>
+  <data name="type_cmb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 65</value>
+  </data>
+  <data name="type_cmb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="type_cmb.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;type_cmb.Name" xml:space="preserve">
+    <value>type_cmb</value>
+  </data>
+  <data name="&gt;&gt;type_cmb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;type_cmb.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;type_cmb.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="frame_cmb.Items" xml:space="preserve">
+    <value>十字型</value>
+  </data>
+  <data name="frame_cmb.Items1" xml:space="preserve">
+    <value>X 字型</value>
+  </data>
+  <data name="frame_cmb.Items2" xml:space="preserve">
+    <value>V 字型</value>
+  </data>
+  <data name="frame_cmb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 150</value>
+  </data>
+  <data name="frame_cmb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="frame_cmb.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;frame_cmb.Name" xml:space="preserve">
+    <value>frame_cmb</value>
+  </data>
+  <data name="&gt;&gt;frame_cmb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;frame_cmb.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;frame_cmb.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="v_type.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="v_type.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 12pt, style=Bold</value>
+  </data>
+  <data name="v_type.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 61</value>
+  </data>
+  <data name="v_type.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="v_type.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="v_type.Text" xml:space="preserve">
+    <value>飞行器类型</value>
+  </data>
+  <data name="&gt;&gt;v_type.Name" xml:space="preserve">
+    <value>v_type</value>
+  </data>
+  <data name="&gt;&gt;v_type.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;v_type.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;v_type.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="v_frame.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="v_frame.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 12pt, style=Bold</value>
+  </data>
+  <data name="v_frame.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="v_frame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 148</value>
+  </data>
+  <data name="v_frame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="v_frame.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="v_frame.Text" xml:space="preserve">
+    <value>飞行器机架</value>
+  </data>
+  <data name="v_frame.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;v_frame.Name" xml:space="preserve">
+    <value>v_frame</value>
+  </data>
+  <data name="&gt;&gt;v_frame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;v_frame.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;v_frame.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="vehicle_info.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="vehicle_info.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 10.5pt</value>
+  </data>
+  <data name="vehicle_info.Location" type="System.Drawing.Point, System.Drawing">
+    <value>358, 63</value>
+  </data>
+  <data name="vehicle_info.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="vehicle_info.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="vehicle_info.Text" xml:space="preserve">
+    <value>当前飞控信息</value>
+  </data>
+  <data name="&gt;&gt;vehicle_info.Name" xml:space="preserve">
+    <value>vehicle_info</value>
+  </data>
+  <data name="&gt;&gt;vehicle_info.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vehicle_info.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;vehicle_info.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="release_info.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="release_info.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 93</value>
+  </data>
+  <data name="release_info.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="release_info.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="release_info.Text" xml:space="preserve">
+    <value>出厂日期：</value>
+  </data>
+  <data name="&gt;&gt;release_info.Name" xml:space="preserve">
+    <value>release_info</value>
+  </data>
+  <data name="&gt;&gt;release_info.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;release_info.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;release_info.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="SN_info.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SN_info.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 115</value>
+  </data>
+  <data name="SN_info.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="SN_info.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="SN_info.Text" xml:space="preserve">
+    <value>序列号：</value>
+  </data>
+  <data name="&gt;&gt;SN_info.Name" xml:space="preserve">
+    <value>SN_info</value>
+  </data>
+  <data name="&gt;&gt;SN_info.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SN_info.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SN_info.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="fw_ver.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="fw_ver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>365, 135</value>
+  </data>
+  <data name="fw_ver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="fw_ver.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="fw_ver.Text" xml:space="preserve">
+    <value>飞控版本：</value>
+  </data>
+  <data name="&gt;&gt;fw_ver.Name" xml:space="preserve">
+    <value>fw_ver</value>
+  </data>
+  <data name="&gt;&gt;fw_ver.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fw_ver.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;fw_ver.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="split_vertical.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 62</value>
+  </data>
+  <data name="split_vertical.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 120</value>
+  </data>
+  <data name="split_vertical.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="split_vertical.Text" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;split_vertical.Name" xml:space="preserve">
+    <value>split_vertical</value>
+  </data>
+  <data name="&gt;&gt;split_vertical.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;split_vertical.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;split_vertical.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="mod_type_frame.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mod_type_frame.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 12pt</value>
+  </data>
+  <data name="mod_type_frame.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mod_type_frame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 227</value>
+  </data>
+  <data name="mod_type_frame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 23</value>
+  </data>
+  <data name="mod_type_frame.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="mod_type_frame.Text" xml:space="preserve">
+    <value> 更改机型配置  </value>
+  </data>
+  <data name="&gt;&gt;mod_type_frame.Name" xml:space="preserve">
+    <value>mod_type_frame</value>
+  </data>
+  <data name="&gt;&gt;mod_type_frame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mod_type_frame.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mod_type_frame.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lb_recovery.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb_recovery.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 12pt</value>
+  </data>
+  <data name="lb_recovery.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 227</value>
+  </data>
+  <data name="lb_recovery.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 23</value>
+  </data>
+  <data name="lb_recovery.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="lb_recovery.Text" xml:space="preserve">
+    <value>  恢复到出厂配置 </value>
+  </data>
+  <data name="&gt;&gt;lb_recovery.Name" xml:space="preserve">
+    <value>lb_recovery</value>
+  </data>
+  <data name="&gt;&gt;lb_recovery.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_recovery.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lb_recovery.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btn_refresh_sn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>365, 158</value>
+  </data>
+  <data name="btn_refresh_sn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 23</value>
+  </data>
+  <data name="btn_refresh_sn.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="btn_refresh_sn.Text" xml:space="preserve">
+    <value>刷新飞控信息</value>
+  </data>
+  <data name="&gt;&gt;btn_refresh_sn.Name" xml:space="preserve">
+    <value>btn_refresh_sn</value>
+  </data>
+  <data name="&gt;&gt;btn_refresh_sn.Type" xml:space="preserve">
+    <value>MissionPlanner.Controls.MyButton, MissionPlanner.Controls, Version=1.0.6699.14135, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_refresh_sn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_refresh_sn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_sn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_sn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 314</value>
+  </data>
+  <data name="btn_sn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 23</value>
+  </data>
+  <data name="btn_sn.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="btn_sn.Text" xml:space="preserve">
+    <value>烧写序列号</value>
+  </data>
+  <data name="&gt;&gt;btn_sn.Name" xml:space="preserve">
+    <value>btn_sn</value>
+  </data>
+  <data name="&gt;&gt;btn_sn.Type" xml:space="preserve">
+    <value>MissionPlanner.Controls.MyButton, MissionPlanner.Controls, Version=1.0.6699.14135, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_sn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_sn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tb_sn_new.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 314</value>
+  </data>
+  <data name="tb_sn_new.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 21</value>
+  </data>
+  <data name="tb_sn_new.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;tb_sn_new.Name" xml:space="preserve">
+    <value>tb_sn_new</value>
+  </data>
+  <data name="&gt;&gt;tb_sn_new.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb_sn_new.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tb_sn_new.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>469, 360</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ConfigFirmware</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MyUserControl, MissionPlanner.Controls, Version=1.0.6699.14135, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

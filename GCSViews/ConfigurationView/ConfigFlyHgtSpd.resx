@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="horizon_spd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 30</value>
+  </data>
+  <data name="horizon_spd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 107</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="horizon_spd.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;horizon_spd.Name" xml:space="preserve">
+    <value>horizon_spd</value>
+  </data>
+  <data name="&gt;&gt;horizon_spd.Type" xml:space="preserve">
+    <value>MissionPlanner.Controls.RangeControl, MissionPlanner.Controls, Version=1.0.6633.22132, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;horizon_spd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;horizon_spd.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lineSeparator1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 143</value>
+  </data>
+  <data name="lineSeparator1.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>2000, 2</value>
+  </data>
+  <data name="lineSeparator1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 2</value>
+  </data>
+  <data name="lineSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>398, 2</value>
+  </data>
+  <data name="lineSeparator1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lineSeparator1.Name" xml:space="preserve">
+    <value>lineSeparator1</value>
+  </data>
+  <data name="&gt;&gt;lineSeparator1.Type" xml:space="preserve">
+    <value>MissionPlanner.Controls.LineSeparator, MissionPlanner.Controls, Version=1.0.6633.22132, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lineSeparator1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lineSeparator1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="note.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="note.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="note.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;note.Name" xml:space="preserve">
+    <value>note</value>
+  </data>
+  <data name="&gt;&gt;note.Type" xml:space="preserve">
+    <value>MissionPlanner.Controls.MyLabel, MissionPlanner.Controls, Version=1.0.6633.22132, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;note.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;note.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lineSeparator2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 266</value>
+  </data>
+  <data name="lineSeparator2.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>2000, 2</value>
+  </data>
+  <data name="lineSeparator2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 2</value>
+  </data>
+  <data name="lineSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>398, 2</value>
+  </data>
+  <data name="lineSeparator2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lineSeparator2.Name" xml:space="preserve">
+    <value>lineSeparator2</value>
+  </data>
+  <data name="&gt;&gt;lineSeparator2.Type" xml:space="preserve">
+    <value>MissionPlanner.Controls.LineSeparator, MissionPlanner.Controls, Version=1.0.6633.22132, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lineSeparator2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lineSeparator2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cb_yaw_mode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt</value>
+  </data>
+  <data name="cb_yaw_mode.Items" xml:space="preserve">
+    <value>机头跟随航线</value>
+  </data>
+  <data name="cb_yaw_mode.Items1" xml:space="preserve">
+    <value>机头保持不变</value>
+  </data>
+  <data name="cb_yaw_mode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 406</value>
+  </data>
+  <data name="cb_yaw_mode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 25</value>
+  </data>
+  <data name="cb_yaw_mode.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cb_yaw_mode.Name" xml:space="preserve">
+    <value>cb_yaw_mode</value>
+  </data>
+  <data name="&gt;&gt;cb_yaw_mode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cb_yaw_mode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cb_yaw_mode.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="myLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt, style=Bold</value>
+  </data>
+  <data name="myLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 408</value>
+  </data>
+  <data name="myLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 23</value>
+  </data>
+  <data name="myLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="myLabel1.Text" xml:space="preserve">
+    <value>航线飞行时航向模式</value>
+  </data>
+  <data name="&gt;&gt;myLabel1.Name" xml:space="preserve">
+    <value>myLabel1</value>
+  </data>
+  <data name="&gt;&gt;myLabel1.Type" xml:space="preserve">
+    <value>MissionPlanner.Controls.MyLabel, MissionPlanner.Controls, Version=1.0.6633.22132, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;myLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;myLabel1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="send_to.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 469</value>
+  </data>
+  <data name="send_to.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 23</value>
+  </data>
+  <data name="send_to.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="send_to.Text" xml:space="preserve">
+    <value>保存上述配置到飞控</value>
+  </data>
+  <data name="&gt;&gt;send_to.Name" xml:space="preserve">
+    <value>send_to</value>
+  </data>
+  <data name="&gt;&gt;send_to.Type" xml:space="preserve">
+    <value>MissionPlanner.Controls.MyButton, MissionPlanner.Controls, Version=1.0.6633.22132, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;send_to.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;send_to.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lineSeparator3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 452</value>
+  </data>
+  <data name="lineSeparator3.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>2000, 2</value>
+  </data>
+  <data name="lineSeparator3.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 2</value>
+  </data>
+  <data name="lineSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>398, 2</value>
+  </data>
+  <data name="lineSeparator3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lineSeparator3.Name" xml:space="preserve">
+    <value>lineSeparator3</value>
+  </data>
+  <data name="&gt;&gt;lineSeparator3.Type" xml:space="preserve">
+    <value>MissionPlanner.Controls.LineSeparator, MissionPlanner.Controls, Version=1.0.6633.22132, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lineSeparator3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lineSeparator3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lb_reset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_reset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 469</value>
+  </data>
+  <data name="lb_reset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 23</value>
+  </data>
+  <data name="lb_reset.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lb_reset.Text" xml:space="preserve">
+    <value>重置到默认配置</value>
+  </data>
+  <data name="&gt;&gt;lb_reset.Name" xml:space="preserve">
+    <value>lb_reset</value>
+  </data>
+  <data name="&gt;&gt;lb_reset.Type" xml:space="preserve">
+    <value>MissionPlanner.Controls.MyButton, MissionPlanner.Controls, Version=1.0.6633.22132, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lb_reset.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lb_reset.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="des_vel_decel_s.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 159</value>
+  </data>
+  <data name="des_vel_decel_s.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 107</value>
+  </data>
+  <data name="des_vel_decel_s.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;des_vel_decel_s.Name" xml:space="preserve">
+    <value>des_vel_decel_s</value>
+  </data>
+  <data name="&gt;&gt;des_vel_decel_s.Type" xml:space="preserve">
+    <value>MissionPlanner.Controls.RangeControl, MissionPlanner.Controls, Version=1.0.6633.22132, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;des_vel_decel_s.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;des_vel_decel_s.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="rng_angle_max.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 283</value>
+  </data>
+  <data name="rng_angle_max.Size" type="System.Drawing.Size, System.Drawing">
+    <value>365, 108</value>
+  </data>
+  <data name="rng_angle_max.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;rng_angle_max.Name" xml:space="preserve">
+    <value>rng_angle_max</value>
+  </data>
+  <data name="&gt;&gt;rng_angle_max.Type" xml:space="preserve">
+    <value>MissionPlanner.Controls.RangeControl, MissionPlanner.Controls, Version=1.0.6633.22132, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;rng_angle_max.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rng_angle_max.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>541, 557</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ConfigFlyHgtSpd</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MyUserControl, MissionPlanner.Controls, Version=1.0.6633.22132, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>
